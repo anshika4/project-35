@@ -95,7 +95,7 @@ function readStock(data){
   foodS = data.val();
 }
 
-function writeStock(x,y){
+function writeStock(x){
   if(x<=0){
     x = 0;
   }else{
